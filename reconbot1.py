@@ -3,7 +3,7 @@
 import requests
 import json
 
-api_key="839983611:AAEHnwgYWnPa-Rt9GhTRWQgnXtoF0xO0-fk"
+api_key="<your api key>"
 URL = "https://api.telegram.org/bot{0}/".format(api_key)
 
 def get_url(url):
